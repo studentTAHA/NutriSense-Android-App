@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NutriSense</string>
+    <string name="tagline">Small steps. Healthier you.</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="dashboard">NutriSense Dashboard</string>
+    <string name="profile">My Profile</string>
+</resources>

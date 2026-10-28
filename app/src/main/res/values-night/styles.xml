@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.NutriSense" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">@color/green_primary</item>
+        <item name="android:statusBarColor">@color/screen_bg</item>
+        <item name="android:navigationBarColor">@color/screen_bg</item>
+        <item name="android:windowBackground">@color/screen_bg</item>
+    </style>
+</resources>

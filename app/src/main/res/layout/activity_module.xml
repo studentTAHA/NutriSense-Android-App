@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp" android:gravity="center_vertical"
+    android:background="@color/screen_bg">
+    <TextView android:id="@+id/txtModuleTitle" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="NutriSense Module"
+        android:textColor="@color/green_primary" android:textSize="27sp" android:textStyle="bold" />
+    <TextView android:id="@+id/txtModuleDescription" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:textColor="@color/text_primary"
+        android:textSize="17sp" android:layout_marginTop="18dp" />
+    <Button android:id="@+id/btnBackDashboard" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="24dp"
+        android:text="Back to Dashboard" android:backgroundTint="@color/green_primary"
+        android:textColor="@color/white" />
+</LinearLayout>

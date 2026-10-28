@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp" android:gravity="center_vertical"
+    android:background="@color/screen_bg">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="My Profile" android:textColor="@color/text_primary"
+        android:textSize="28sp" android:textStyle="bold" />
+    <TextView android:id="@+id/txtProfileName" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="User Name"
+        android:textColor="@color/green_primary" android:textSize="22sp"
+        android:textStyle="bold" android:layout_marginTop="24dp" />
+    <TextView android:id="@+id/txtProfileEmail" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="user@example.com"
+        android:textColor="@color/text_secondary" android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+    <Button android:id="@+id/btnLogout" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="28dp"
+        android:text="Logout" android:backgroundTint="@color/green_primary"
+        android:textColor="@color/white" />
+</LinearLayout>

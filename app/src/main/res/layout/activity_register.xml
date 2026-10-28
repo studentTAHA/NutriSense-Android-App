@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:background="@color/screen_bg">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Create Account" android:textColor="@color/text_primary"
+            android:textSize="28sp" android:textStyle="bold" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Join NutriSense and start tracking your wellness."
+            android:textColor="@color/text_secondary" android:layout_marginTop="6dp" />
+        <EditText android:id="@+id/inputName" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="24dp"
+            android:hint="Full name" android:inputType="textPersonName" android:singleLine="true" />
+        <EditText android:id="@+id/inputRegisterEmail" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp"
+            android:hint="Email address" android:inputType="textEmailAddress" android:singleLine="true" />
+        <EditText android:id="@+id/inputRegisterPassword" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp"
+            android:hint="Password (min 6 characters)" android:inputType="textPassword" android:singleLine="true" />
+        <EditText android:id="@+id/inputConfirmPassword" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp"
+            android:hint="Confirm password" android:inputType="textPassword" android:singleLine="true" />
+        <Button android:id="@+id/btnCreateAccount" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="24dp"
+            android:text="Create Account" android:backgroundTint="@color/green_primary"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:background="@color/screen_bg">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp" android:gravity="center_vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🥗 NutriSense" android:textSize="30sp" android:textStyle="bold"
+            android:textColor="@color/green_primary" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Welcome back" android:textSize="23sp" android:textStyle="bold"
+            android:textColor="@color/text_primary" android:layout_marginTop="24dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Log in to continue your healthy journey" android:textColor="@color/text_secondary"
+            android:layout_marginTop="6dp" />
+        <EditText android:id="@+id/inputLoginEmail" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="24dp"
+            android:hint="Email address" android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress" android:singleLine="true" />
+        <EditText android:id="@+id/inputLoginPassword" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp"
+            android:hint="Password" android:inputType="textPassword"
+            android:autofillHints="password" android:singleLine="true" />
+        <Button android:id="@+id/btnLogin" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="20dp"
+            android:text="@string/login" android:backgroundTint="@color/green_primary"
+            android:textColor="@color/white" />
+        <TextView android:id="@+id/linkForgot" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/forgot_password"
+            android:textColor="@color/green_primary" android:padding="12dp"
+            android:layout_gravity="center_horizontal" />
+        <TextView android:id="@+id/linkRegister" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="New here? Create an account"
+            android:textColor="@color/green_primary" android:padding="12dp"
+            android:layout_gravity="center_horizontal" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Demo: demo@nutrisense.com / 123456" android:textColor="@color/text_secondary"
+            android:gravity="center" android:layout_marginTop="18dp" />
+    </LinearLayout>
+</ScrollView>
